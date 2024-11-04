@@ -1,0 +1,230 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-section {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.text-section h1 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #0000A0;
+}
+
+.text-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.image-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-section h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #0000A0;
+}
+
+.text-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 15px;
+}
+.image-section img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 15px;
+}
+body{
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.container .row .logo img{
+  width: 850px;
+  height: 350px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row{
+  align-items: center;
+}
+.SOCIAL-containor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 21px;
+}
+.SOCIAL-containor h5{
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 115;
+}
+
+.lastimage img{
+  max-width: 100%;
+  width: 100%;
+}
+.soxial {
+  align-items: center;
+}
+.rawlastone{
+  width: 540px;
+  height: 1080px;
+}
+.raw img{
+  width: 500px;
+  height: 500px
+  ;
+}
+.raw2 img{
+  width: 500px;
+  height: 500px;
+}
+.texts{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.container .row .kuppi img{
+  width: 2450px;
+}
+.container .row .texts p{
+  font-size: 58px;
+  margin-bottom: -26rem;
+}
+.bg-primary img{
+  width: 196px;
+  height: 42px;
+}
+
+.text-section h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #0000A0;
+}
+
+.text-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 15px;
+  max-width: 300px; /* Limits the image width */
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 20px;
+  }
+}
+.content {
+  padding: 20px;
+}
+.left h1{
+  color: #0000A0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left p {
+  max-width: 100%;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.right img {
+  max-width: 100%;
+  height: auto;
+}
